@@ -53,7 +53,7 @@ body {
 .form-control input:focus,
 .form-control input:valid {
     outline: 0;
-    border-bottom-color: lightblue;
+    border-bottom-color: blue;
 }
   
 .form-control label {
@@ -73,7 +73,7 @@ body {
   
 .form-control input:focus+label span,
 .form-control input:valid+label span {
-    color: lightblue;
+    color: blue;
     transform: translateY(-30px);
 }
 
