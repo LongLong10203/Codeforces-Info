@@ -1,4 +1,4 @@
-# Codeforces-Info
+# Codeforces-User-Info
 Fetch codeforces user info with codeforces API
 
 Site: https://codeforces-info.vercel.app/
