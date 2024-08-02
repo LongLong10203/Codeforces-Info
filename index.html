@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codeforces User Info</title>
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <!-- https://uiverse.io/adamgiebl/strong-zebra-87 -->
+        <div id="container" class="container">
+            <h1 id="title">Codeforces User Info</h1>
+            <div id="row">
+                <img src="" id="avatar">
+                <div class="form-control">
+                    <input type="text" required="" id="username">
+                    <label>
+                        <span style="transition-delay:0ms">H</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">n</span><span style="transition-delay:150ms">d</span><span style="transition-delay:200ms">l</span><span style="transition-delay:250ms">e</span>
+                    </label>
+                </div>
+            </div>
+            <!-- https://uiverse.io/Nawsome/wet-mayfly-23 -->
+            <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster" id="hamster">
+                <div class="wheel"></div>
+                <div class="hamster">
+                    <div class="hamster__body">
+                        <div class="hamster__head">
+                            <div class="hamster__ear"></div>
+                            <div class="hamster__eye"></div>
+                            <div class="hamster__nose"></div>
+                        </div>
+                        <div class="hamster__limb hamster__limb--fr"></div>
+                        <div class="hamster__limb hamster__limb--fl"></div>
+                        <div class="hamster__limb hamster__limb--br"></div>
+                        <div class="hamster__limb hamster__limb--bl"></div>
+                        <div class="hamster__tail"></div>
+                    </div>
+                </div>
+                <div class="spoke"></div>
+            </div>
+            <div id="user-info" style="display: none;" class="result">
+                <div class="info"><strong>Handle: </strong><span id="handle"></span></div>
+                <div class="info"><strong>Rank: </strong><span id="rank"></span></div>
+                <div class="info"><strong>Rating: </strong><span id="rating"></span></div>
+                <div class="info"><strong>Max Rank: </strong><span id="max-rank"></span></div>
+                <div class="info"><strong>Max Rating: </strong><span id="max-rating"></span></div>
+                <div class="info"><strong>Friend of count: </strong><span id="friend-of-count"></span></div>
+            </div>
+            <div id="fetch-error" style="display: none;" class="result">
+                <b>User not found</b>
+            </div>
+        </div>
+    </body>
+</html>
